@@ -1,0 +1,30 @@
+.education-card {
+  height: 100%;
+}
+
+.education-card__header-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.education-card__logo {
+  max-width: 100px;
+  width: 100%;
+  height: 100%;
+  margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  .education-card__logo {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .education-card__header-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
